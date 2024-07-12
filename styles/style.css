@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+	color: #171717;
+	padding: 1rem;
+	text-align: center;
+	letter-spacing: 0.125rem;
+	font-size: 10rem;
+}
+
+main {
+	display: flex;
+	padding: 2rem;
+	gap: 2rem;
+}
+
+.staff-container {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+	align-content: flex-start;
+}
+
+h1 {
+	font-family: 'Alfa Slab One', serif;
+}
+
+.card {
+	padding: 1rem;
+	width: 20rem;
+	height: 25rem;
+	background: #171717;
+	transition: 1s ease-in-out;
+	clip-path: polygon(
+		30px 0%,
+		100% 0,
+		100% calc(100% - 30px),
+		calc(100% - 30px) 100%,
+		0 100%,
+		0% 30px
+	);
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.card h4,
+.card h3 {
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	display: block;
+	font-size: 1em;
+}
+
+.card p {
+	font-size: 0.8rem;
+}
+
+.card .info {
+	font-weight: 400;
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 0.72em;
+	margin: 1em;
+}
+
+.card .img {
+	width: 4.8em;
+	height: 4.8em;
+	background: white;
+	border-radius: 15px;
+	margin: auto;
+}
+
+.card .share {
+	margin-top: 1em;
+	display: flex;
+	justify-content: center;
+	gap: 1em;
+}
+
+.card a {
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+
+.card a:hover {
+	color: red;
+}
+
+.card button {
+	padding: 0.8em 1.7em;
+	display: block;
+	margin: auto;
+	border-radius: 25px;
+	border: none;
+	font-weight: bold;
+	background: #ffffff;
+	color: rgb(0, 0, 0);
+	transition: 0.4s ease-in-out;
+}
+
+.card button:hover {
+	background: #f00;
+	color: white;
+	cursor: pointer;
+}
+
+/*Form CSS*/
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	min-width: 350px;
+	height: fit-content;
+	padding: 20px;
+	border-radius: 20px;
+	color: #fff;
+	border: 1px solid #333;
+	position: sticky;
+	top: 20px;
+}
+
+.title {
+	font-size: 28px;
+	font-weight: 600;
+	text-align: left;
+	color: #000;
+}
+
+.form label {
+	position: relative;
+}
+
+.form label .input {
+	background-color: #333;
+	color: #fff;
+	width: 100%;
+	padding: 20px 05px 05px 10px;
+	outline: 0;
+	border: 1px solid rgba(105, 105, 105, 0.397);
+	border-radius: 10px;
+}
+
+.form label .input + span {
+	color: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	left: 10px;
+	top: 0px;
+	font-size: 0.9em;
+	cursor: text;
+	transition: 0.3s ease;
+}
+
+.form label .input:placeholder-shown + span {
+	top: 12.5px;
+	font-size: 0.9em;
+}
+
+.form label .input:focus + span,
+.form label .input:valid + span {
+	color: #00bfff;
+	top: 0px;
+	font-size: 0.7em;
+	font-weight: 600;
+}
+
+.input {
+	font-size: medium;
+}
+
+.submit {
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 10px;
+	border-radius: 10px;
+	color: #fff;
+	font-size: 16px;
+	transform: 0.3s ease;
+	background-color: #00bfff;
+}
+
+.submit:hover {
+	background-color: #00bfff96;
+}
+
+@media screen and (max-width: 450px) {
+	main {
+		padding: 1rem;
+
+		flex-direction: column;
+	}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+	.form {
+		position: static;
+		min-width: 250px;
+	}
+}
