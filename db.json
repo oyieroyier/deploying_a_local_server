@@ -49,56 +49,6 @@
       "contact": "njoki.wambui@example.com",
       "image": "https://images.unsplash.com/photo-1617037448248-6bd7b4a0d038?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "about": "Njoki is a skilled marketing specialist with expertise in digital marketing strategies."
-    },
-    {
-      "id": "6",
-      "name": "Mwende Kilonzo",
-      "job": "Sales Executive",
-      "role": "Sales",
-      "address": "Machakos Road, Machakos, Kenya",
-      "contact": "mwende.kilonzo@example.com",
-      "image": "https://images.unsplash.com/photo-1606415918835-88d0614e75ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Mwende is a results-driven sales executive with a strong track record of exceeding targets."
-    },
-    {
-      "id": "7",
-      "name": "Mutua Muthama",
-      "job": "IT Support Specialist",
-      "role": "Support",
-      "address": "404 Nyeri Road, Nyeri, Kenya",
-      "contact": "mutua.muthama@example.com",
-      "image": "https://images.unsplash.com/photo-1604336732494-d8386c7029e3?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Mutua is an IT support specialist with extensive experience in troubleshooting and system maintenance."
-    },
-    {
-      "id": "8",
-      "name": "Nduta Kariuki",
-      "job": "Content Writer",
-      "role": "Writer",
-      "address": "505 Nakuru Road, Nakuru, Kenya",
-      "contact": "nduta.kariuki@example.com",
-      "image": "https://images.unsplash.com/photo-1627393100177-b4297e79a5be?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Nduta is a talented content writer with a flair for crafting compelling and engaging content."
-    },
-    {
-      "id": "9",
-      "name": "Wekesa Wafula",
-      "job": "Project Manager",
-      "role": "Manager",
-      "address": "606 Eldoret Road, Eldoret, Kenya",
-      "contact": "wekesa.wafula@example.com",
-      "image": "https://images.unsplash.com/photo-1561515075-551b90143acb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Wekesa is a proficient project manager known for his ability to lead teams and deliver projects on time."
-    },
-    {
-      "id": "10",
-      "name": "Chebet Kiprono",
-      "job": "HR Specialist",
-      "role": "HR",
-      "address": "707 Kericho Road, Kericho, Kenya",
-      "contact": "chebet.kiprono@example.com",
-      "image": "https://images.unsplash.com/photo-1613730317814-1cede28e0151?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "about": "Chebet is an experienced HR specialist dedicated to fostering a positive and productive workplace environment."
     }
   ]
 }

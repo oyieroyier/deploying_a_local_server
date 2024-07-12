@@ -1,4 +1,4 @@
-const url = 'http://localhost:3000/staff';
+const url = 'https://staff-backend.vercel.app/staff';
 
 // UTILITY FUNCTIONS
 
@@ -91,7 +91,7 @@ const createCards = (staffData) => {
 		const button = createAnElement('button');
 		addText(button, 'Delete');
 		addAttribute(button, 'class', 'button');
-		listen(button, 'click', () => deleteData(url, staff.id));
+		listen(button, 'click', () => deleteData(url, staff.id, card));
 		appendChild(button, card);
 
 		appendChild(card, staffContainer);
@@ -131,10 +131,10 @@ function postData(url, data) {
 }
 
 // A utility function to delete a staff member from the API.
-function deleteData(url, id) {
+function deleteData(url, id, card) {
 	fetch(`${url}/${id}`, {
 		method: 'DELETE',
 	})
 		.then((res) => res.json())
-		.then(() => fetchData(url));
+		.then(() => card.remove());
 }
